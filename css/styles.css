@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000 !important; /* Fondo completamente negro */
+    color: #fff; /* Texto blanco */
+    margin: 0;
+    padding: 0;
+}
+
+i {
+    margin: 0.3rem;
+    padding: 0.3rem;
+    color: rgb(52, 233, 224); /* Cambiar color de los íconos a violeta */
+}
+
+h1, h2 {
+    color: violet; /* Cambiar color a violeta */
+}
+
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    list-style-type: disc;
+    color: #fff; /* Asegura que el texto de la lista sea blanco */
+    transition: color 0.3s ease; /* Suaviza la transición de color */
+}
+
+/* Efecto hover en los li */
+ul li:hover {
+    color: violet; /* Cambia el color del texto a violeta al pasar el mouse */
+}
+
+/* Línea divisoria entre main y footer */
+main {
+    border-bottom: 2px solid rgb(104, 18, 104); /* Línea divisoria de color violeta */
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+/* Estilos de los enlaces en el footer */
+footer a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease; /* Suaviza la transición de color */
+}
+
+/* Efecto hover en los enlaces del footer */
+footer a:hover {
+    color: violet; /* Cambia el color a violeta al pasar el mouse */
+}
+
+footer img {
+    display: inline-block;
+    width: 200px; /* Ajusta el tamaño de la imagen en el footer */
+}
